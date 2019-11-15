@@ -1,0 +1,29 @@
+@import url('style.css');
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+  body {
+    margin: 0 auto;
+  }
+
+  .game {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 608px;
+    height: 608px;
+  }
+
+  p {
+    position: relative;
+    top:680px;
+    color:#333;
+    font-size: 12px;
+    text-align: center;
+  }
+  .form{
+    display: none;
+  }
